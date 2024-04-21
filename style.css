@@ -1,0 +1,210 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 25px;
+    font-weight: 800;
+    float: left;
+    font-family: Courier;
+    color:#222831;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    font-size: 13px;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFFF;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li  {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 17px 0px 17px;
+    text-decoration: none ;
+}
+
+nav ul li a :hover {
+    text-decoration: underline;
+}
+:root{
+    primary-color: #f90a39;
+    text-color: #1d1d1d;
+    bg-color: #f1f1fb
+}
+*{*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 25px;
+    font-weight: 800;
+    float: left;
+    font-family: Courier;
+    color:#222831;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    font-size: 13px;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFFF;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li  {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 17px 0px 17px;
+    text-decoration: none ;
+}
+
+nav ul li a :hover {
+    text-decoration: underline;
+}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+}
+body{
+    background-color: #fff;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.wrapper{
+    width: 500px;
+    height: 500px;
+    background: #f1eded;
+    color: black;
+
+}
+}
+.calendar {
+    max-width: 300px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.month {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1eded;
+    padding: 10px;
+}
+
+.month-name {
+    font-size: 20px;
+    align-items: center;
+}
+
+button {
+    background-image: url(gambar\ 2.jpg);
+    border: none;
+    padding: 100px;
+    cursor: pointer;
+}
+
+.weekdays {
+    display: flex;
+    text-align: center;
+}
+
+.weekdays div {
+    width: 14.28%;
+    padding: 10px;
+    text-align: center;
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.days div {
+    width: 14.28%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.prev, .next {
+    cursor: pointer;
+}
